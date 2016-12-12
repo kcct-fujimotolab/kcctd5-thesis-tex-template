@@ -11,11 +11,10 @@ KCCT 電子工学科用の予稿および卒論 TeX スタイルファイルを�
     \usepackage{abstract}
     ```
 
-詳細は `interim/sample.tex` を参考にしてください．
-
+詳細は `interim/sample.tex` を参考にしてください．  
 https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/interim/sample.tex
 
-## 原稿用
+## 卒論用
 
 1. `paper.sty` をダウンロードします．  
     https://raw.githubusercontent.com/kcct-fujimotolab/thesis-tex-template/master/thesis/paper.sty
@@ -25,8 +24,7 @@ https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/interim/samp
     \usepackage{paper}
     ```
 
-詳細は `thesis/sample.tex` を参考にしてください．
-
+詳細は `thesis/sample.tex` を参考にしてください．  
 https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/thesis/sample.tex
 
 ## 原稿を Git / GitHub で管理する場合
