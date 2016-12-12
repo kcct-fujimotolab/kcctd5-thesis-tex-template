@@ -1,32 +1,35 @@
 # 卒論テンプレート for TeX
+KCCT 電子工学科用の予稿および卒論 TeX スタイルファイルを置いています．
 
-学科指定の TeX スタイルファイル `abstract.sty` を含んでいます．
+## 予稿用
 
+1. `abstract.sty` をダウンロードします．  
+    https://raw.githubusercontent.com/kcct-fujimotolab/thesis-tex-template/master/interim/abstract.sty
 
-## 使い方
+2. TeX ファイルに以下を追加することでスタイルが適用されます．
+    ```tex
+    \usepackage{abstract}
+    ```
 
-### スタイルファイルをダウンロードする
-
-`abstract.sty` をダウンロードします．
-
-https://raw.githubusercontent.com/kcct-fujimotolab/thesis-tex-template/master/abstract.sty
-
-
-### スタイルファイルを適用する
-
-TeX ファイルに以下を追加することでスタイルが適用されます:
-
-```tex
-\usepackage{abstract}
-```
-
-他については `interim/sample.tex` を参考にしてください．
+詳細は `interim/sample.tex` を参考にしてください．
 
 https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/interim/sample.tex
 
+## 原稿用
+
+1. `paper.sty` をダウンロードします．  
+    https://raw.githubusercontent.com/kcct-fujimotolab/thesis-tex-template/master/thesis/paper.sty
+
+2. TeX ファイルに以下を追加することでスタイルが適用されます．
+    ```tex
+    \usepackage{paper}
+    ```
+
+詳細は `thesis/sample.tex` を参考にしてください．
+
+https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/thesis/sample.tex
 
 ## 原稿を Git / GitHub で管理する場合
-
 GitHub が公開している TeX 用 `.gitignore` の使用をオススメします．
 
 https://github.com/github/gitignore/blob/master/TeX.gitignore
