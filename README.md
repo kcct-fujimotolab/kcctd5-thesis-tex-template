@@ -20,9 +20,9 @@ TeX ファイルに以下を追加することでスタイルが適用されま�
 \usepackage{abstract}
 ```
 
-他については `sample.tex` を参考にしてください．
+他については `interim/sample.tex` を参考にしてください．
 
-https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/sample.tex
+https://github.com/kcct-fujimotolab/thesis-tex-template/blob/master/interim/sample.tex
 
 
 ## 原稿を Git / GitHub で管理する場合
